@@ -15,7 +15,7 @@ jobs:
           node-version: "12.x"
 
       - name: Install Dependencies
-        run: nmp ci
+        run: npm ci
 
       - name: Check Code Formatting
         run: npm run format:Check
