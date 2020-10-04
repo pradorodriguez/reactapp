@@ -24,5 +24,3 @@ jobs:
         run: npm test -- --coverage
         env:
           CI: true
-      #- name: Upload Code Coverage as An Artifact
-      #  run:
